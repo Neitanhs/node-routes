@@ -1,0 +1,34 @@
+POST http://localhost:3333/videos
+// Definimos o tipo de conteúdo no Cabeçalho da requisição
+// Podemos definir as configurações das requisições nos meta-dados
+Content-Type: application/json
+
+{
+    "title" : "Vídeo Node",
+    "description" : "Esse é o primeiro vídeo",
+    "duration" : 180
+}
+
+
+###
+
+GET http://localhost:3333/videos?search
+
+
+###
+
+PUT http://localhost:3333/videos/b82bfca5-a0db-45b3-8901-e4b6a911bd51
+// Definimos o tipo de conteúdo no Cabeçalho da requisição
+// Podemos definir as configurações das requisições nos meta-dados
+Content-Type: application/json
+
+{
+    "title" : "VÍDEO QUE VAI SER APAGADO",
+    "description" : "Esse é o primeiro vídeo",
+    "duration" : 180
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/b82bfca5-a0db-45b3-8901-e4b6a911bd51

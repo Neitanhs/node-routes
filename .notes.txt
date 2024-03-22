@@ -1,0 +1,6 @@
+Map and Set
+Query parameters - Eles são utilizados para identificar informações opcionais e geralmente para filtrar os dados ou fazer um tipo de paginação
+ - Listagem de dados
+ - Filtro
+
+ O QUE PORRA É AWAIT
